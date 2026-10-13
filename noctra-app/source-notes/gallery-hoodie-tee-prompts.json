@@ -1,0 +1,64 @@
+{
+  "mode": "builtin",
+  "tool": "image_gen.imagegen",
+  "created": "2026-10-13",
+  "purpose": "Each product has an original true flatlay as primary display image plus two distinct original adult model photographs (front and rear three-quarter).",
+  "assets": [
+    {
+      "path": "dist/assets/generated/hoodie-flatlay.png",
+      "references": [
+        "dist/assets/generated/hoodie.png"
+      ],
+      "sourcePath": "/Users/eugenkelberer/.codex/generated_images/01a13252-5f85-7c43-b07e-ee8f23cc36d0/exec-1bca5894-daae-4050-a26c-f2196851aeaf.png",
+      "prompt": "Use case: product-mockup\nAsset type: NOCTRA e-commerce product gallery primary FLATLAY, square 1:1 photograph.\nInput image 1 is a garment reference only: preserve exactly the charcoal faded washed black oversized pullover hoodie with drop shoulders, ribbed cuffs and hem, large kangaroo pocket, substantial hood, no drawstrings and no graphics.\nPrimary request: create a new original photorealistic overhead flatlay of this same hoodie laid FLAT on a very light cool-grey studio surface. Sleeves spread slightly downward to either side, hood laid flat at the top, realistic natural small folds, completely visible garment and generous small margin. This must physically lie on the surface, not stand vertically or float. The shoulders, front torso, pocket, sleeves and hood are all clearly shown.\nComposition: true top-down camera at 90 degrees, center garment, square 1:1.\nLighting: soft diffuse catalog daylight with gentle contact shadows around the garment.\nConstraints: no person, no mannequin, no hanger, no invisible mannequin, no logo, no typography, no text, no watermark, no other props. Clothing shape, color, seams and stonewash texture match the supplied garment reference.",
+      "verified": "Visually inspected: garment consistent, fully visible; original photos, no text/logo/watermark. Model2 retains model1 identity in a new rear three-quarter view."
+    },
+    {
+      "path": "dist/assets/generated/hoodie-model-1.png",
+      "references": [
+        "dist/assets/generated/hoodie.png"
+      ],
+      "sourcePath": "/Users/eugenkelberer/.codex/generated_images/01a13252-5f85-7c43-b07e-ee8f23cc36d0/exec-7793ec2f-9c04-434b-8698-2a4053284c49.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: NOCTRA e-commerce product gallery MODEL FRONT photograph, portrait 4:5.\nInput image 1 is a GARMENT reference only. Create a new original adult male fashion model wearing exactly this charcoal washed-black oversized pullover hoodie: kangaroo pocket, heavy cotton texture, drop shoulders, ribbed cuffs and hem, substantial hood worn down, no drawstrings and no graphics.\nScene: minimal light concrete grey studio wall and floor, soft daylight, cool quiet contemporary streetwear editorial.\nModel: natural adult man age 26, medium warm tan skin, short textured dark curly hair, clean shaven, calm confident neutral expression, realistic face and hands. Style cool and relaxed, looking at camera, no exaggerated pose.\nPose and framing: mostly front-facing, relaxed weight shift, right hand casually in charcoal loose trouser pocket and left arm loose at side. Complete hoodie from hood to bottom hem visible, torso fills most of image. Frame from just above head to knees, portrait 4:5; no crop of shoulders or hoodie sides.\nLighting: softly directional natural studio daylight with realistic fabric folds and subtle shadows.\nConstraints: preserve reference hoodie color/cut/construction; no text, logos, branding, print, watermarks, collage, extra objects or garments covering the hoodie. This is an original generated model and photo.",
+      "verified": "Visually inspected: garment consistent, fully visible; original photos, no text/logo/watermark. Model2 retains model1 identity in a new rear three-quarter view."
+    },
+    {
+      "path": "dist/assets/generated/hoodie-model-2.png",
+      "references": [
+        "dist/assets/generated/hoodie-model-1.png",
+        "dist/assets/generated/hoodie.png"
+      ],
+      "sourcePath": "/Users/eugenkelberer/.codex/generated_images/01a13252-5f85-7c43-b07e-ee8f23cc36d0/exec-642a2f9b-24d3-4c03-b3d3-4606438d9724.png",
+      "prompt": "Use case: identity-preserve\nAsset type: NOCTRA e-commerce product gallery MODEL REAR THREE-QUARTER photograph, portrait 4:5.\nInput image 1 is the MODEL IDENTITY, exact garment and same studio reference. Input image 2 is the hoodie construction reference.\nPrimary request: Create a DISTINCT new photograph in the SAME editorial shoot with exactly the same adult male model, face, short dark curly hair, skin tone, charcoal loose trousers and charcoal stonewashed oversized hoodie as image 1. Change viewpoint and pose: model turned mostly away from the camera at about 140 degrees, showing the broad BACK of the hoodie and back of hood. He glances calmly back over his left shoulder in profile; arms naturally relaxed, one hand in trouser pocket. Hood stays down. The rear silhouette, oversized shoulder seam, sleeves, washed fabric and ribbed hem are fully visible and unobscured. The back is plain no graphics.\nScene: same neutral light concrete grey wall/floor and soft directional natural studio daylight.\nFraming: portrait 4:5, frame just above head to knees, whole hoodie visible and dominant; no cropped shoulders, cuffs or hem.\nConstraints: preserve exact model identity and garment across photos. Must be a new rear three-quarter view rather than repeating front pose/cropping the first image. No text, logos, lettering, watermark, collage, additional people or props.",
+      "verified": "Visually inspected: garment consistent, fully visible; original photos, no text/logo/watermark. Model2 retains model1 identity in a new rear three-quarter view."
+    },
+    {
+      "path": "dist/assets/generated/tee-flatlay.png",
+      "references": [
+        "dist/assets/generated/tee.png"
+      ],
+      "sourcePath": "/Users/eugenkelberer/.codex/generated_images/01a13252-5f85-7c43-b07e-ee8f23cc36d0/exec-8f4ab790-2d5a-4ede-82d0-694c72044d8c.png",
+      "prompt": "Use case: product-mockup\nAsset type: NOCTRA e-commerce product gallery primary FLATLAY, square 1:1 photograph.\nInput image 1 is a garment reference only: preserve exactly the off-white/ecru boxy oversized short-sleeve T-shirt, substantial ribbed crew neck, dropped shoulders, heavy matte cotton and clean seams, no graphics.\nPrimary request: create a new original photorealistic overhead flatlay of this same T-shirt laid FLAT on a very light cool-grey studio surface. Short sleeves spread neatly, neckline at top, relaxed natural small wrinkles, completely visible garment with small surrounding margin. The actual garment lies on the surface, without the hanging shape or invisible mannequin silhouette.\nComposition: true top-down camera at 90 degrees, center garment, square 1:1.\nLighting: soft diffuse catalog daylight, gentle contact shadows, off-white fabric distinct from the pale grey surface.\nConstraints: no person, no mannequin, no hanger, no invisible mannequin, no logo, no typography, no text, no watermark, no other props. Clothing color, shape, crew neck, sleeve length and heavy cotton texture must match supplied garment.",
+      "verified": "Visually inspected: garment consistent, fully visible; original photos, no text/logo/watermark. Model2 retains model1 identity in a new rear three-quarter view."
+    },
+    {
+      "path": "dist/assets/generated/tee-model-1.png",
+      "references": [
+        "dist/assets/generated/tee.png"
+      ],
+      "sourcePath": "/Users/eugenkelberer/.codex/generated_images/01a13252-5f85-7c43-b07e-ee8f23cc36d0/exec-681bc647-4b91-47ab-82d4-bd2c3c977552.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: NOCTRA e-commerce product gallery MODEL FRONT photograph, portrait 4:5.\nInput image 1 is a GARMENT reference only. Create a new original adult female fashion model wearing exactly this off-white/ecru boxy oversized short-sleeve T-shirt with dropped shoulders, substantial ribbed crew neck, heavy matte cotton and plain clean finish with no graphics. Tee is worn untucked and fully visible.\nScene: minimal light concrete grey studio wall and floor, soft daylight, cool contemporary streetwear editorial.\nModel: natural adult woman age 25, medium light olive skin, dark brown hair tied in a loose low bun with a few natural strands, calm confident neutral expression, realistic facial details and hands. Cool relaxed casual stance.\nPose and framing: mostly front-facing, weight shifted gently to one leg, arms relaxed with one hand in pocket of dark charcoal loose cargo trousers. Tee front unobscured; complete garment from neck to hem visible and oversized fit obvious. Frame from just above head to mid thighs, portrait 4:5; no crop of shoulders or shirt sides.\nLighting: softly directional studio daylight, realistic cotton folds and subtle shadows.\nConstraints: preserve reference tee color/cut/construction; no text, logos, graphics, watermarks, jewellery obscuring garment, collage or objects. Original generated person and photo.",
+      "verified": "Visually inspected: garment consistent, fully visible; original photos, no text/logo/watermark. Model2 retains model1 identity in a new rear three-quarter view."
+    },
+    {
+      "path": "dist/assets/generated/tee-model-2.png",
+      "references": [
+        "dist/assets/generated/tee-model-1.png",
+        "dist/assets/generated/tee.png"
+      ],
+      "sourcePath": "/Users/eugenkelberer/.codex/generated_images/01a13252-5f85-7c43-b07e-ee8f23cc36d0/exec-8ce84835-ed4c-4186-b2fa-d70d948ac95d.png",
+      "prompt": "Use case: identity-preserve\nAsset type: NOCTRA e-commerce product gallery MODEL REAR THREE-QUARTER photograph, portrait 4:5.\nInput image 1 is the MODEL IDENTITY, garment and same studio reference. Input image 2 is the exact tee construction reference.\nPrimary request: Create a DISTINCT new photograph in the SAME editorial shoot with exactly the same adult female model, face, dark brown hair tied in loose low bun, olive skin, dark charcoal cargo trousers and off-white boxy oversized tee as image 1. Change viewpoint and pose: model turned mostly away from the camera at about 140 degrees, showing the plain BACK of the tee. She glances calmly back over her left shoulder in profile; arms naturally relaxed at sides, shoulders lowered, casual weight shift. Complete boxy untucked tee from neckline to hem fully visible and dominant, including both short sleeves and dropped shoulder seams.\nScene: same neutral light concrete grey wall/floor and soft natural studio daylight.\nFraming: portrait 4:5, frame just above head to mid thighs, tee not cropped or obscured.\nConstraints: preserve exact model identity and garment cut, heavy matte cotton texture and off-white/ecru color. Must be a new rear three-quarter photograph rather than repeating front pose/cropping the first image. No text, logos, lettering, print, watermark, collage, extra people or props.",
+      "verified": "Visually inspected: garment consistent, fully visible; original photos, no text/logo/watermark. Model2 retains model1 identity in a new rear three-quarter view."
+    }
+  ]
+}

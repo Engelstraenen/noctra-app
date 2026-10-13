@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "local_assets_checked": 12,
+  "browser_checks": [
+    "desktop layout 1440 x 900 with no horizontal page overflow",
+    "mobile layouts 390 x 844 and normal 425px viewport",
+    "all visible images loaded",
+    "desktop and mobile product search",
+    "price ascending sort",
+    "wishlist add and persistence after reload",
+    "size required before adding; unavailable XL disabled",
+    "cart addition, quantity updates, total EUR 202.90 for 2 x EUR99 + EUR4.90",
+    "simulated checkout success, no server submission",
+    "demo reset",
+    "fictional NOCTRA name throughout visible UI"
+  ],
+  "limits": [
+    "Native file:// navigation was unavailable in the automated browser; verification used the local HTTP preview."
+  ],
+  "images": "18 newly generated gallery photographs plus original generated campaign, all own ImageGen assets",
+  "gallery_checks": [
+    "six independent galleries with 18 existing original assets",
+    "flatlay first and two consistent model photographs for every product",
+    "overview arrows change only their own card and keep detail closed",
+    "previous from first photo wraps to third",
+    "details preserve the selected overview photograph",
+    "thumbnail selection updates photograph and active thumbnail",
+    "size M persists when changing the photograph",
+    "keyboard ArrowRight advances detail gallery",
+    "detail next arrow from third wraps to first",
+    "gallery fits 1440px desktop viewport without horizontal page overflow",
+    "mobile full portrait photograph plus all three thumbnails visually inspected"
+  ]
+}

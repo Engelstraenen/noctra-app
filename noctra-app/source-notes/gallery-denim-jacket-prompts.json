@@ -1,0 +1,70 @@
+{
+  "mode": "builtin",
+  "tool": "image_gen.imagegen",
+  "created": "2026-10-13",
+  "purpose": "NOCTRA product gallery: one new overhead flatlay and two original model views for denim and jacket",
+  "assets": [
+    {
+      "name": "denim-flatlay",
+      "source": "/Users/eugenkelberer/.codex/generated_images/01a13252-9e43-7a11-8af8-360bb73a67c2/exec-f426d6b2-0dc4-4645-9a7b-66ff45f0ac43.png",
+      "path": "/Users/eugenkelberer/Documents/ChatGPT/E COMMERCE APP/noctra-app/dist/assets/generated/denim-flatlay.png",
+      "referencePaths": [
+        "/Users/eugenkelberer/Documents/ChatGPT/E COMMERCE APP/noctra-app/dist/assets/generated/denim.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: square 1:1 ecommerce gallery main image. Input image 1 is a generated garment design reference only. Create a NEW genuine overhead flatlay photograph of these exact indigo blue high-rise wide-leg jeans lying flat on a very light cool-grey studio surface. Retain the broad straight legs, subtle blue wash, copper topstitching, five-pocket construction, silver waist button and clean unbranded finish. Waistband at top, both legs and hems complete and separated slightly; centered garment with ample equal margin all round. Material should look like realistic heavy denim. Soft directional studio light with a delicate contact shadow at garment edges. The jeans must truly lie on the surface, not look like a standing invisible mannequin or suspended ghost product. No person, body, mannequin, hanger, props, text, branding, logo or watermark. One image, no collage.",
+      "visualQa": "Inspected: complete unbranded garment, neutral studio background, appropriate flatlay or full-body model view; no visible logos, text or watermark."
+    },
+    {
+      "name": "denim-model-1",
+      "source": "/Users/eugenkelberer/.codex/generated_images/01a13252-9e43-7a11-8af8-360bb73a67c2/exec-ca19d6c6-7bd5-4b4c-a834-f16f55713174.png",
+      "path": "/Users/eugenkelberer/Documents/ChatGPT/E COMMERCE APP/noctra-app/dist/assets/generated/denim-model-1.png",
+      "referencePaths": [
+        "/Users/eugenkelberer/Documents/ChatGPT/E COMMERCE APP/noctra-app/dist/assets/generated/denim.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: original portrait 4:5 ecommerce model gallery photo. Input image 1 is a generated garment design reference. Create a new full-body studio editorial photograph of an adult woman aged 26 with long dark-brown loose hair, natural face and confident relaxed expression wearing these exact indigo blue high-rise wide-leg jeans. Preserve the blue wash, copper stitching, five pockets, silver waist button and broad straight fit. Style with a plain minimal black fitted tee and simple black shoes; no logos. Front view, standing relaxed with weight on one leg, one hand loosely in front pocket, other arm resting naturally, gaze slightly beside camera. Jeans waistband and BOTH entire legs fully visible from waist to shoes; do not crop feet, hems, or head. Grey-white concrete studio wall and floor, understated contemporary streetwear mood, soft natural-looking editorial light, realistic denim drape and skin texture. Keep subject centered with breathing room for 4:5 image. No text, watermark, accessories covering jeans, brands or extra people. One image, no collage.",
+      "visualQa": "Inspected: complete unbranded garment, neutral studio background, appropriate flatlay or full-body model view; no visible logos, text or watermark."
+    },
+    {
+      "name": "jacket-flatlay",
+      "source": "/Users/eugenkelberer/.codex/generated_images/01a13252-9e43-7a11-8af8-360bb73a67c2/exec-63c9771a-13d3-4bf0-9e47-b7ea2aa2da20.png",
+      "path": "/Users/eugenkelberer/Documents/ChatGPT/E COMMERCE APP/noctra-app/dist/assets/generated/jacket-flatlay.png",
+      "referencePaths": [
+        "/Users/eugenkelberer/Documents/ChatGPT/E COMMERCE APP/noctra-app/dist/assets/generated/jacket.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: square 1:1 ecommerce gallery main image. Input image 1 is a generated garment design reference only. Create a NEW genuine overhead flatlay photograph of this exact unbranded black leather bomber jacket lying FLAT on a very light cool-grey studio surface. Keep drop shoulders, rounded roomy sleeves, black ribbed collar/cuffs/hem, clean silver central zipper and two diagonal slash pockets. Lay the front closed with zipper straight, sleeves angled a little outward, full collar, full hem and both cuffs visible, leather naturally spread on the surface with credible folds. Centered garment with ample equal margin all round. Soft studio lighting highlights subtle leather grain and delicate contact shadows. Must look like a garment resting on a tabletop, not a standing invisible mannequin or inflated garment. No person, body, mannequin, hanger, props, text, branding, logo or watermark. One image, no collage.",
+      "visualQa": "Inspected: complete unbranded garment, neutral studio background, appropriate flatlay or full-body model view; no visible logos, text or watermark."
+    },
+    {
+      "name": "jacket-model-1",
+      "source": "/Users/eugenkelberer/.codex/generated_images/01a13252-9e43-7a11-8af8-360bb73a67c2/exec-aa395e9c-01e6-49f1-8f81-0f315c78d94f.png",
+      "path": "/Users/eugenkelberer/Documents/ChatGPT/E COMMERCE APP/noctra-app/dist/assets/generated/jacket-model-1.png",
+      "referencePaths": [
+        "/Users/eugenkelberer/Documents/ChatGPT/E COMMERCE APP/noctra-app/dist/assets/generated/jacket.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: original portrait 4:5 ecommerce model gallery photo. Input image 1 is a generated garment design reference. Create a new full-body studio editorial photo of an adult woman aged 27, medium brown skin, dark hair pulled into a loose low bun, naturally beautiful strong facial features, calm confident expression. She wears this exact relaxed black leather bomber jacket: drop shoulders, roomy sleeves, black ribbed collar/cuffs/hem, silver central zipper and two diagonal slash pockets. Jacket front zipped nearly fully, hem at hips, whole jacket visible. Style with plain offwhite straight trousers and simple dark shoes. FRONT view in a cool relaxed pose, weight on one leg, elbows loose, one hand lightly in jacket pocket, gaze into camera. Full head through shoes visible with breathing room. Pale grey-white concrete studio wall and floor; soft broad editorial light, premium contemporary streetwear feeling, realistic leather grain and skin texture. No accessories covering garment, no text, no branding, no logos, no watermark, no extra people. One photo, no collage.",
+      "visualQa": "Inspected: complete unbranded garment, neutral studio background, appropriate flatlay or full-body model view; no visible logos, text or watermark."
+    },
+    {
+      "name": "denim-model-2",
+      "source": "/Users/eugenkelberer/.codex/generated_images/01a13252-9e43-7a11-8af8-360bb73a67c2/exec-5eb7b43d-6c68-42a2-90ae-5c862462941a.png",
+      "path": "/Users/eugenkelberer/Documents/ChatGPT/E COMMERCE APP/noctra-app/dist/assets/generated/denim-model-2.png",
+      "referencePaths": [
+        "/Users/eugenkelberer/Documents/ChatGPT/E COMMERCE APP/noctra-app/dist/assets/generated/denim-model-1.png",
+        "/Users/eugenkelberer/Documents/ChatGPT/E COMMERCE APP/noctra-app/dist/assets/generated/denim.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset type: original portrait 4:5 ecommerce model gallery SECOND image. Input image 1 supplies the exact generated adult woman model identity, styling and studio; input image 2 supplies the exact jeans garment design. Make a NEW separately photographed full-body image of the SAME adult woman, same long dark-brown loose hair, same face, black minimal fitted tee, simple black shoes and SAME indigo high-rise broad wide-leg jeans with copper stitching. Change only her pose and camera view: cool relaxed rear THREE-QUARTER view facing away from camera at about 135 degrees, head turned slightly back toward camera, one hand lightly inside a BACK pocket and other arm natural. Show both jean back pockets, rear fit, outer leg seams and both entire broad legs/hemline; nothing cropped from head through shoes. Same pale grey-white concrete studio wall/floor and broad soft light; high-quality realistic editorial photograph, minimal contemporary streetwear, understated expression. Consistent face/body/hair and garment as inputs. Do not mirror, duplicate or crop the first photo; genuinely new posture and viewpoint. No text, branding, logos, watermark, collage, additional people or accessories covering jeans.",
+      "visualQa": "Inspected: complete unbranded garment, neutral studio background, appropriate flatlay or full-body model view; no visible logos, text or watermark."
+    },
+    {
+      "name": "jacket-model-2",
+      "source": "/Users/eugenkelberer/.codex/generated_images/01a13252-9e43-7a11-8af8-360bb73a67c2/exec-78009821-0090-4b23-a948-18015d9298c5.png",
+      "path": "/Users/eugenkelberer/Documents/ChatGPT/E COMMERCE APP/noctra-app/dist/assets/generated/jacket-model-2.png",
+      "referencePaths": [
+        "/Users/eugenkelberer/Documents/ChatGPT/E COMMERCE APP/noctra-app/dist/assets/generated/jacket-model-1.png",
+        "/Users/eugenkelberer/Documents/ChatGPT/E COMMERCE APP/noctra-app/dist/assets/generated/jacket.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset type: original portrait 4:5 ecommerce model gallery SECOND image. Input image 1 supplies the exact generated adult woman model identity, styling and studio; input image 2 supplies exact black leather bomber design. Make a NEW separately photographed full-body image of the SAME adult woman aged 27 with medium brown skin, same face and loose low bun, SAME black leather bomber, SAME offwhite straight trousers and dark loafers. Change only pose and camera angle: relaxed rear THREE-QUARTER view about 135 degrees away from camera, head turned back slightly over shoulder, both arms resting naturally, weight shifted with one foot a little behind. Rear and side panel construction, roomy drop shoulders, rounded sleeves, black ribbed hem/cuffs/collar and realistic leather folds must be visible; jacket remains zipped as before. Full head through shoes and entire jacket within frame with breathing room. Same pale grey-white concrete studio wall/floor, soft broad light and understated premium streetwear mood, realistic skin and leather texture. Keep face/body/hair and garment consistent with references. Do not mirror, duplicate or crop photo 1; distinct new posture and viewpoint. No extra people, accessories covering jacket, branding, logos, text, watermark or collage.",
+      "visualQa": "Inspected: complete unbranded garment, neutral studio background, appropriate flatlay or full-body model view; no visible logos, text or watermark."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "mode": "builtin",
+  "tool": "image_gen.imagegen",
+  "created_date": "2026-10-13",
+  "reference_policy": "Only original generated NOCTRA garment references; no original brand photography.",
+  "assets": [
+    {
+      "asset": "dist/assets/generated/knit-flatlay.png",
+      "prompt": "Use case: product-mockup. Asset type: square 1:1 ecommerce catalogue flatlay photograph. Input image 1 is an original generated garment reference, preserve exactly its grey cable-knit pullover design, round ribbed neck, chunky symmetrical front cable patterns, ribbed cuffs and hem, oversized dropped shoulder proportions, grey wool color. Create a genuinely top-down overhead flatlay of this same sweater lying flat on a very light cool grey matte studio surface. Sleeves arranged naturally to the sides, front facing upwards, full sweater visible, plenty of clean even margin. Soft diffuse studio light and a subtle real contact shadow. Photorealistic knitted yarn texture. No model, body, mannequin, hanger or floating ghost torso; no logos, text, watermark or accessories.",
+      "generated_source": "/Users/eugenkelberer/.codex/generated_images/01a13252-db13-78c2-8bb2-0882ed316d2a/exec-92562814-8722-45cf-ba7a-ba4a69c2a84c.png",
+      "references": [
+        "dist/assets/generated/knit.png"
+      ]
+    },
+    {
+      "asset": "dist/assets/generated/knit-model-1.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait 4:5 ecommerce studio model photograph. Input image 1 is the original generated garment reference: preserve the exact same medium-grey cable-knit oversized pullover, round ribbed crew neck, thick symmetrical cable pattern, dropped shoulders, ribbed cuffs and hem. A cool relaxed adult male fashion model, around 26 years old, medium brown skin, short dark textured curls, subtle stubble, wears this exact sweater and simple loose black trousers. Front view, standing casually with both hands tucked into trouser pockets, relaxed shoulders and calm confident expression. Frame from head to upper thighs so full sweater and cuffs are visible; do not cut sweater hem or hands. Neutral light concrete-grey studio background, premium streetwear editorial photography, soft directional daylight, realistic wool texture, natural anatomy. No logos, no text, no watermark, no jewelry, no props.",
+      "generated_source": "/Users/eugenkelberer/.codex/generated_images/01a13252-db13-78c2-8bb2-0882ed316d2a/exec-b7d4f83d-f545-423b-a64e-23fe50db9723.png",
+      "references": [
+        "dist/assets/generated/knit.png"
+      ]
+    },
+    {
+      "asset": "dist/assets/generated/cap-flatlay.png",
+      "prompt": "Use case: product-mockup. Asset type: square 1:1 ecommerce catalogue flatlay photograph. Input image 1 is the original generated product reference: preserve the exact same charcoal washed black unbranded baseball cap, six panels, curved brim, matching stitched eyelets, charcoal top button and cotton twill texture. Create a true overhead top-down product photograph of this cap resting naturally on its base on a very light cool-grey matte studio surface. The full cap is visible centered, brim toward bottom of frame, plenty of clean even margin. Retain natural three-dimensional cap shape while camera looks down from directly above. Soft diffuse studio lighting, subtle real contact shadow, crisp realistic fabric texture. No model, mannequin, stand or hanger; no other objects, logos, text, watermark.",
+      "generated_source": "/Users/eugenkelberer/.codex/generated_images/01a13252-db13-78c2-8bb2-0882ed316d2a/exec-650c1dc8-94dc-432d-af2d-d44b98f71569.png",
+      "references": [
+        "dist/assets/generated/cap.png"
+      ]
+    },
+    {
+      "asset": "dist/assets/generated/cap-model-1.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait 4:5 ecommerce studio model photograph. Input image 1 is an original generated product reference; preserve the exact same charcoal washed black unbranded six-panel curved-brim baseball cap with matching stitched eyelets, charcoal top button, cotton twill texture. A cool relaxed adult female fashion model around 25, olive skin, shoulder-length dark brown straight hair tucked naturally behind ears, wears the cap forward and a simple oversized off-white crewneck t-shirt. Front view of head and upper body, calm confident expression, easy relaxed pose, cap fully visible with space above top of head, cap brim casting a soft natural shadow. Minimal light concrete-grey studio backdrop, premium streetwear editorial photograph, soft directional daylight, natural skin and fabric detail. No logos, text or watermarks, no jewelry or props.",
+      "generated_source": "/Users/eugenkelberer/.codex/generated_images/01a13252-db13-78c2-8bb2-0882ed316d2a/exec-72b0ba05-971a-4507-bf43-660122b7f05d.png",
+      "references": [
+        "dist/assets/generated/cap.png"
+      ]
+    },
+    {
+      "asset": "dist/assets/generated/knit-model-2.png",
+      "prompt": "Use case: identity-preserve. Asset type: portrait 4:5 ecommerce studio model gallery photograph. Input image 1 is the preceding model photograph: preserve exactly the same adult male model's face, medium brown skin, short dark textured curls and subtle stubble, body proportions, simple loose black trousers and light concrete-grey studio. Input image 2 is the original generated grey cable-knit sweater: preserve the exact crewneck, medium-grey wool, chunky cable patterns, dropped shoulders, ribbed cuffs and hem. Create a distinct second photograph of that same model wearing this same sweater from a three-quarter side angle, torso turned about 60 degrees from camera, head slightly turned back toward camera, arms loose with one hand in trouser pocket. Frame head to upper thighs, all sweater including hem and sleeves visible. Show clearly the sweater's drape and side sleeve construction, confident relaxed editorial feel, soft natural studio light, photorealistic skin and knit texture. Do not change person or garment. No logos, text, watermark, props, jewelry or collage.",
+      "generated_source": "/Users/eugenkelberer/.codex/generated_images/01a13252-db13-78c2-8bb2-0882ed316d2a/exec-e11b7e8a-8bc2-440d-bc14-25edb4810d88.png",
+      "references": [
+        "dist/assets/generated/knit-model-1.png",
+        "dist/assets/generated/knit.png"
+      ]
+    },
+    {
+      "asset": "dist/assets/generated/cap-model-2.png",
+      "prompt": "Use case: identity-preserve. Asset type: portrait 4:5 ecommerce studio model gallery photograph. Input image 1 is the preceding model photograph: preserve exactly the same adult female model's olive skin, face, shoulder-length dark brown straight hair, off-white oversized t-shirt and concrete-grey studio. Input image 2 is original generated product reference: preserve exactly the same charcoal washed-black unbranded six-panel baseball cap, cotton twill texture, top button, eyelets and curved brim. Create a distinct second photograph of the same model wearing the cap forward from a three-quarter side profile, face and torso turned about 60 degrees to the left, gaze calmly beyond camera, relaxed shoulders. Frame the whole head and upper body, plenty of margin above cap, entire cap visible. Show cap side profile, brim curvature and fit. Premium relaxed streetwear studio editorial photography, soft natural directional daylight, realistic skin and fabric, subtle cap shadow. Do not change identity or product. No logos, text, watermark, jewelry, props or collage.",
+      "generated_source": "/Users/eugenkelberer/.codex/generated_images/01a13252-db13-78c2-8bb2-0882ed316d2a/exec-8ccd0575-25d6-4af4-8db8-5e2108622445.png",
+      "references": [
+        "dist/assets/generated/cap-model-1.png",
+        "dist/assets/generated/cap.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "mode": "builtin image_gen",
+  "inputImages": [],
+  "images": [
+    {
+      "name": "hoodie",
+      "subject": "Subject: a heavyweight oversized pullover hoodie in washed charcoal black, dropped shoulders, roomy sleeves, ribbed hem and cuffs, subtle cotton fleece texture, kangaroo pocket, clean minimal drawstring-free hood.",
+      "prompt": "Use case: product-mockup. Asset type: original ecommerce catalogue photo for HTML fashion shop demo. Scene/backdrop: uniform very light neutral grey (#f3f3f3) studio seamless background. Style/medium: premium photorealistic fashion product photography, delicate authentic material texture, studio ghost mannequin with no visible human or mannequin. Composition/framing: square 1:1 image, centered garment, straight front view, complete product fully in frame with generous equal negative margins, no cropping. Lighting/mood: large softbox light, soft realistic minimal shadow. Constraints: original design, completely unbranded, no visible labels, no logos, no embroidery, no typography, no text, no watermark, no people, no props. Subject: a heavyweight oversized pullover hoodie in washed charcoal black, dropped shoulders, roomy sleeves, ribbed hem and cuffs, subtle cotton fleece texture, kangaroo pocket, clean minimal drawstring-free hood.",
+      "source": "/Users/eugenkelberer/.codex/generated_images/01a13233-b3c2-7ab2-bb41-548eb646515d/exec-4fa1d405-5194-4046-b398-559781643647.png",
+      "destination": "/Users/eugenkelberer/Documents/ChatGPT/E COMMERCE APP/noctra-app/dist/assets/generated/hoodie.png"
+    },
+    {
+      "name": "tee",
+      "subject": "Subject: a boxy oversized short sleeve T-shirt in washed off-white, dropped shoulders, heavyweight cotton jersey texture, crew neck, softly draping natural folds, clean blank fabric.",
+      "prompt": "Use case: product-mockup. Asset type: original ecommerce catalogue photo for HTML fashion shop demo. Scene/backdrop: uniform very light neutral grey (#f3f3f3) studio seamless background. Style/medium: premium photorealistic fashion product photography, delicate authentic material texture, studio ghost mannequin with no visible human or mannequin. Composition/framing: square 1:1 image, centered garment, straight front view, complete product fully in frame with generous equal negative margins, no cropping. Lighting/mood: large softbox light, soft realistic minimal shadow. Constraints: original design, completely unbranded, no visible labels, no logos, no embroidery, no typography, no text, no watermark, no people, no props. Subject: a boxy oversized short sleeve T-shirt in washed off-white, dropped shoulders, heavyweight cotton jersey texture, crew neck, softly draping natural folds, clean blank fabric.",
+      "source": "/Users/eugenkelberer/.codex/generated_images/01a13233-b3c2-7ab2-bb41-548eb646515d/exec-f4ebcc55-dd03-438d-b80c-03959f51680a.png",
+      "destination": "/Users/eugenkelberer/Documents/ChatGPT/E COMMERCE APP/noctra-app/dist/assets/generated/tee.png"
+    },
+    {
+      "name": "denim",
+      "subject": "Subject: a pair of premium wide leg jeans in dark indigo blue, straight front view from waist to both complete hems, authentic denim twill texture, five-pocket construction, subtle washed finish, relaxed extra-wide silhouette.",
+      "prompt": "Use case: product-mockup. Asset type: original ecommerce catalogue photo for HTML fashion shop demo. Scene/backdrop: uniform very light neutral grey (#f3f3f3) studio seamless background. Style/medium: premium photorealistic fashion product photography, delicate authentic material texture, studio ghost mannequin with no visible human or mannequin. Composition/framing: square 1:1 image, centered garment, straight front view, complete product fully in frame with generous equal negative margins, no cropping. Lighting/mood: large softbox light, soft realistic minimal shadow. Constraints: original design, completely unbranded, no visible labels, no logos, no embroidery, no typography, no text, no watermark, no people, no props. Subject: a pair of premium wide leg jeans in dark indigo blue, straight front view from waist to both complete hems, authentic denim twill texture, five-pocket construction, subtle washed finish, relaxed extra-wide silhouette.",
+      "source": "/Users/eugenkelberer/.codex/generated_images/01a13233-b3c2-7ab2-bb41-548eb646515d/exec-591c2fe4-91c3-47b8-81ae-1e9a620607d4.png",
+      "destination": "/Users/eugenkelberer/Documents/ChatGPT/E COMMERCE APP/noctra-app/dist/assets/generated/denim.png"
+    },
+    {
+      "name": "jacket",
+      "subject": "Subject: a premium oversized bomber jacket in deep black leather, front full garment, clean central metal zipper, rounded silhouette, wide shoulders, two discreet side pockets, ribbed waistband and sleeve cuffs, subtle supple leather texture.",
+      "prompt": "Use case: product-mockup. Asset type: original ecommerce catalogue photo for HTML fashion shop demo. Scene/backdrop: uniform very light neutral grey (#f3f3f3) studio seamless background. Style/medium: premium photorealistic fashion product photography, delicate authentic material texture, studio ghost mannequin with no visible human or mannequin. Composition/framing: square 1:1 image, centered garment, straight front view, complete product fully in frame with generous equal negative margins, no cropping. Lighting/mood: large softbox light, soft realistic minimal shadow. Constraints: original design, completely unbranded, no visible labels, no logos, no embroidery, no typography, no text, no watermark, no people, no props. Subject: a premium oversized bomber jacket in deep black leather, front full garment, clean central metal zipper, rounded silhouette, wide shoulders, two discreet side pockets, ribbed waistband and sleeve cuffs, subtle supple leather texture.",
+      "source": "/Users/eugenkelberer/.codex/generated_images/01a13233-b3c2-7ab2-bb41-548eb646515d/exec-0b0d479d-743a-47af-92b4-ad9eed6799c4.png",
+      "destination": "/Users/eugenkelberer/Documents/ChatGPT/E COMMERCE APP/noctra-app/dist/assets/generated/jacket.png"
+    },
+    {
+      "name": "knit",
+      "subject": "Subject: a premium grey cable knit crewneck sweater, oversized relaxed silhouette, dropped shoulders, thick detailed cable patterns, ribbed neck cuffs and hem, natural soft wool texture.",
+      "prompt": "Use case: product-mockup. Asset type: original ecommerce catalogue photo for HTML fashion shop demo. Scene/backdrop: uniform very light neutral grey (#f3f3f3) studio seamless background. Style/medium: premium photorealistic fashion product photography, delicate authentic material texture, studio ghost mannequin with no visible human or mannequin. Composition/framing: square 1:1 image, centered garment, straight front view, complete product fully in frame with generous equal negative margins, no cropping. Lighting/mood: large softbox light, soft realistic minimal shadow. Constraints: original design, completely unbranded, no visible labels, no logos, no embroidery, no typography, no text, no watermark, no people, no props. Subject: a premium grey cable knit crewneck sweater, oversized relaxed silhouette, dropped shoulders, thick detailed cable patterns, ribbed neck cuffs and hem, natural soft wool texture.",
+      "source": "/Users/eugenkelberer/.codex/generated_images/01a13233-b3c2-7ab2-bb41-548eb646515d/exec-78f13979-c5bd-4fc0-963e-bc9c9cce2604.png",
+      "destination": "/Users/eugenkelberer/Documents/ChatGPT/E COMMERCE APP/noctra-app/dist/assets/generated/knit.png"
+    },
+    {
+      "name": "cap",
+      "subject": "Subject: one charcoal black baseball cap, centered slightly elevated front three-quarter product view, curved peak, six panels, premium cotton twill texture, blank front panel, absolutely no logo no lettering no embroidery.",
+      "prompt": "Use case: product-mockup. Asset type: original ecommerce catalogue photo for HTML fashion shop demo. Scene/backdrop: uniform very light neutral grey (#f3f3f3) studio seamless background. Style/medium: premium photorealistic fashion product photography, delicate authentic material texture, studio ghost mannequin with no visible human or mannequin. Composition/framing: square 1:1 image, centered garment, straight front view, complete product fully in frame with generous equal negative margins, no cropping. Lighting/mood: large softbox light, soft realistic minimal shadow. Constraints: original design, completely unbranded, no visible labels, no logos, no embroidery, no typography, no text, no watermark, no people, no props. Subject: one charcoal black baseball cap, centered slightly elevated front three-quarter product view, curved peak, six panels, premium cotton twill texture, blank front panel, absolutely no logo no lettering no embroidery.",
+      "source": "/Users/eugenkelberer/.codex/generated_images/01a13233-b3c2-7ab2-bb41-548eb646515d/exec-395c732b-1731-4c6c-a881-704613a9fd8f.png",
+      "destination": "/Users/eugenkelberer/Documents/ChatGPT/E COMMERCE APP/noctra-app/dist/assets/generated/cap.png"
+    }
+  ]
+}

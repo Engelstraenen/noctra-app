@@ -1,0 +1,16 @@
+{
+  "retrievedDate": "2026-10-13",
+  "note": "No original WORST BEHAVIOR imagery, logo or icon is retained. Campaign and product visuals must be independently generated. Shop-downloaded Roboto Flex was replaced with the official open-source Google Fonts distribution.",
+  "assets": {
+    "roboto-flex.woff2": {
+      "source": "https://fonts.gstatic.com/s/robotoflex/v30/NaNeepOXO_NexZs0b5QrzlOHb8wCikXpYqmZsWI-__OGbt8jZktqc2V3Zs0KvDLdBP8SBZtOs2IifRuUZQMsPJtUsR4DEK6cULNeUx9XgTnH37Ha_FIAp4Fm0PP1hw45DntW2x0wZGzhPmr1YNMYKYn9_1IQXGwJAiUJVUMdN5YUW4O8HtSoXjC79QRyaLshNDUf9-EmF8tqHbE.woff2",
+      "family": "Roboto Flex",
+      "fontWeight": "100 1000",
+      "fontStretch": "25% 151%",
+      "subset": "Latin including German accents and Euro sign",
+      "license": "SIL Open Font License 1.1",
+      "licenseSource": "https://github.com/googlefonts/roboto-flex/blob/main/OFL.txt",
+      "licenseFile": "OFL.txt"
+    }
+  }
+}

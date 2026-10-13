@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111111">
+  <meta name="description" content="Interaktive NOCTRA Shop-App – eine responsive Portfolio-Demo für Handy und Desktop.">
+  <meta name="robots" content="noindex,nofollow">
+  <title>NOCTRA — The App · Portfolio Demo</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./assets/brand/roboto-flex.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./catalogue.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <svg class="icon-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx=".5"/><rect x="14" y="3" width="7" height="7" rx=".5"/><rect x="3" y="14" width="7" height="7" rx=".5"/><rect x="14" y="14" width="7" height="7" rx=".5"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 7h14l1 14H4L5 7Z"/><path d="M8 8V6a4 4 0 0 1 8 0v2"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m5 5 14 14M19 5 5 19"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="7.5" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></symbol>
+    <symbol id="i-filter" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/><path d="M8 3v6m8 0v6M9 15v6"/></symbol>
+    <symbol id="i-shirt" viewBox="0 0 24 24"><path d="m8 3-6 4 3 5 3-2v11h8V10l3 2 3-5-6-4c0 4-8 4-8 0Z"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M5 12h14M12 5v14"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M3 6h18M9 6V3h6v3M5 6l1 15h12l1-15M10 10v7m4-7v7"/></symbol>
+    <symbol id="i-location" viewBox="0 0 24 24"><path d="M19 10c0 5-7 12-7 12S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="1"/><path d="M8 10V6a4 4 0 0 1 8 0v4"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M20 12H5m6-6-6 6 6 6"/></symbol>
+  </svg>
+  <a class="skip-link" href="#main">Zum Inhalt</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="App-Navigation">
+      <button class="brand-button" data-view="home" aria-label="NOCTRA Startseite"><b class="wordmark">NOCTRA</b><span>THE APP</span></button>
+      <div class="sidebar-label">EXPLORE YOUR WORLD</div>
+      <nav class="nav-list">
+        <button class="nav-item is-active" data-view="home"><svg class="icon"><use href="#i-grid"/></svg><span>Entdecken</span><span class="nav-dot"></span></button>
+        <button class="nav-item" data-view="catalog" data-gender="women"><svg class="icon"><use href="#i-shirt"/></svg><span>Women</span><svg class="icon small"><use href="#i-chevron"/></svg></button>
+        <button class="nav-item" data-view="catalog" data-gender="men"><svg class="icon"><use href="#i-shirt"/></svg><span>Men</span><svg class="icon small"><use href="#i-chevron"/></svg></button>
+        <button class="nav-item" data-view="wishlist"><svg class="icon"><use href="#i-heart"/></svg><span>Merkliste</span><span class="wishlist-count nav-count">0</span></button>
+      </nav>
+      <div class="sidebar-label category-label">SHOP BY CATEGORY</div>
+      <nav class="category-nav" aria-label="Produktkategorien">
+        <button data-view="catalog" data-category="hoodies">Hoodies & Sweats <span>↗</span></button>
+        <button data-view="catalog" data-category="tees">T-Shirts & Longsleeves <span>↗</span></button>
+        <button data-view="catalog" data-category="jackets">Jacken <span>↗</span></button>
+        <button data-view="catalog" data-category="pants">Hosen <span>↗</span></button>
+        <button data-view="catalog" data-category="accessories">Accessoires <span>↗</span></button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="demo-tag"><span class="live-dot"></span> PORTFOLIO DEMO</div>
+        <button class="profile-button" data-action="account"><span class="profile-avatar"><svg class="icon"><use href="#i-user"/></svg></span><span>Dein NOCTRA<span class="muted">Mein Bereich</span></span><svg class="icon small"><use href="#i-chevron"/></svg></button>
+        <span class="locale">DEUTSCH / EUR €</span>
+      </div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar">
+        <button class="mobile-brand" data-view="home" aria-label="NOCTRA Startseite"><b class="wordmark">NOCTRA</b></button>
+        <div class="topbar-title">NOCTRA <span>/</span> <span id="page-context">DISCOVER</span></div>
+        <div class="topbar-actions">
+          <div class="header-search"><svg class="icon"><use href="#i-search"/></svg><input type="search" id="global-search" aria-label="Produkte suchen" placeholder="Finde deinen nächsten Look" autocomplete="off"><span class="search-key">↵</span></div>
+          <button class="icon-button mobile-search" data-action="search" aria-label="Suche öffnen"><svg class="icon"><use href="#i-search"/></svg></button>
+          <button class="icon-button desktop-wishlist" data-view="wishlist" aria-label="Merkliste öffnen"><svg class="icon"><use href="#i-heart"/></svg></button>
+          <button class="cart-button" data-action="cart" aria-label="Warenkorb öffnen"><svg class="icon"><use href="#i-bag"/></svg><span class="cart-label">Warenkorb</span><span class="cart-count">0</span></button>
+        </div>
+      </header>
+      <main id="main" tabindex="-1"></main>
+      <footer class="app-footer"><b class="wordmark">NOCTRA</b><span>YOUR WORLD. YOUR ATTITUDE.</span><button data-action="demo-info">Interaktive Portfolio-Demo <span>↗</span></button></footer>
+    </div>
+  </div>
+  <nav class="bottom-nav" aria-label="Mobile App-Navigation">
+    <button class="is-active" data-view="home"><svg class="icon"><use href="#i-grid"/></svg><span>Entdecken</span></button>
+    <button data-view="catalog"><svg class="icon"><use href="#i-shirt"/></svg><span>Shop</span></button>
+    <button data-view="wishlist"><span class="bottom-icon"><svg class="icon"><use href="#i-heart"/></svg><span class="wishlist-count mini-count">0</span></span><span>Merkliste</span></button>
+    <button data-action="account"><svg class="icon"><use href="#i-user"/></svg><span>Mein Bereich</span></button>
+  </nav>
+  <dialog id="panel-dialog" class="panel-dialog" aria-labelledby="panel-title"></dialog>
+  <dialog id="product-dialog" class="product-dialog" aria-labelledby="product-title"></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript><div class="noscript">Bitte aktiviere JavaScript, um die interaktive Shop-Demo zu nutzen.</div></noscript>
+</body>
+</html>
