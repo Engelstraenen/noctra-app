@@ -1,6 +1,6 @@
 # NOCTRA
 
-Responsive HTML-Shop-Demo für Handy und Desktop. Das Projekt wird in diesem privaten GitHub-Repository gepflegt und kann von jedem Rechner mit Zugriff auf das Repository bearbeitet werden.
+Responsive HTML-Shop-Demo für Handy und Desktop. Das Projekt wird in diesem öffentlichen GitHub-Repository gepflegt und kann von jedem Rechner abgerufen oder in andere Entwicklungsumgebungen importiert werden.
 
 [Private Online-Vorschau öffnen](https://noctra-app-preview-1013.eugen974321.chatgpt.site)
 
@@ -8,7 +8,7 @@ Die Online-Vorschau erfordert das ChatGPT-Konto des Eigentümers. Ein lokaler Li
 
 ## Auf einem neuen Rechner starten
 
-Git und Node.js mit npm installieren. Für das private Repository mit dem GitHub-Konto anmelden, das Zugriff besitzt. Anschließend im Terminal ausführen:
+Git und Node.js mit npm installieren. Das öffentliche Repository kann ohne Anmeldung geklont werden. Zum Hochladen von Änderungen sind GitHub-Schreibrechte erforderlich. Anschließend im Terminal ausführen:
 
 ```sh
 git clone https://github.com/Engelstraenen/noctra-app.git
