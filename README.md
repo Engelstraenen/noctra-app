@@ -2,6 +2,8 @@
 
 Responsive HTML-Shop-Demo für Handy und Desktop. Das Projekt wird in diesem öffentlichen GitHub-Repository gepflegt und kann von jedem Rechner abgerufen oder in andere Entwicklungsumgebungen importiert werden.
 
+**Live-Demo (GitHub Pages, öffentlich):** https://engelstraenen.github.io/noctra-app/ – wird bei jedem Push auf `main` aus `noctra-app/dist/` automatisch veröffentlicht (`.github/workflows/pages.yml`).
+
 [Private Online-Vorschau öffnen](https://noctra-app-preview-1013.eugen974321.chatgpt.site)
 
 Die Online-Vorschau erfordert das ChatGPT-Konto des Eigentümers. Ein lokaler Link wie `http://localhost:4173` funktioniert nur auf dem Rechner, auf dem der Server läuft.

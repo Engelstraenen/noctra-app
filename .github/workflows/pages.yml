@@ -1,0 +1,37 @@
+# Live-Demo auf GitHub Pages: veröffentlicht den statischen Ordner noctra-app/dist
+name: Live-Demo (GitHub Pages)
+
+on:
+  push:
+    branches: [main]
+    paths: ["noctra-app/dist/**", ".github/workflows/pages.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Statische Dateien vorbereiten
+        run: |
+          mkdir -p _site
+          cp -R noctra-app/dist/. _site/
+          touch _site/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
